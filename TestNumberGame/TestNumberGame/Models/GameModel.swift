@@ -13,8 +13,8 @@ struct GameModel {
     var guesses: Int
     var lastNumber = ""
     
-    var minimum = 1
-    var maximum = 100
+    var minimum = 0
+    var maximum = 99
     
     mutating func more() -> Int? {
         

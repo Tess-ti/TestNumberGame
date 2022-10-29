@@ -21,7 +21,7 @@ class ComputerChoiseVC: UIViewController {
         button.backgroundColor = .white
         button.layer.borderWidth = 0.7
         button.layer.cornerRadius = 10
-        button.titleLabel?.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        button.titleLabel?.font = UIFont(name: "Avenir-Book", size: 23.0)
         button.setTitleColor(.black, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(moreTapped), for: .touchUpInside)
@@ -34,7 +34,7 @@ class ComputerChoiseVC: UIViewController {
         button.backgroundColor = .white
         button.layer.borderWidth = 0.7
         button.layer.cornerRadius = 10
-        button.titleLabel?.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        button.titleLabel?.font = UIFont(name: "Avenir-Book", size: 23.0)
         button.setTitleColor(.black, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(equalTapped), for: .touchUpInside)
@@ -47,7 +47,7 @@ class ComputerChoiseVC: UIViewController {
         button.backgroundColor = .white
         button.layer.borderWidth = 0.7
         button.layer.cornerRadius = 10
-        button.titleLabel?.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        button.titleLabel?.font = UIFont(name: "Avenir-Book", size: 23.0)
         button.setTitleColor(.black, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(lessTapped), for: .touchUpInside)
@@ -66,7 +66,7 @@ class ComputerChoiseVC: UIViewController {
     let compGuessingLabel: UILabel = {
         let label = UILabel()
         label.text = "Computer is guessing"
-        label.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        label.font = UIFont(name: "Avenir-Book", size: 23.0)
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -75,7 +75,7 @@ class ComputerChoiseVC: UIViewController {
     lazy var yourNumberLabel: UILabel = {
         let label = UILabel()
         label.text = "Your number is - 50? "
-        label.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        label.font = UIFont(name: "Avenir-Book", size: 23.0)
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -84,7 +84,7 @@ class ComputerChoiseVC: UIViewController {
     let myNumberLabel: UILabel = {
         let label = UILabel()
         label.text = "My number is..."
-        label.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        label.font = UIFont(name: "Avenir-Book", size: 23.0)
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -100,7 +100,7 @@ class ComputerChoiseVC: UIViewController {
         button.backgroundColor = .white
         button.layer.borderWidth = 0.7
         button.layer.cornerRadius = 15
-        button.titleLabel?.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        button.titleLabel?.font = UIFont(name: "Avenir-Book", size: 23.0)
         button.setTitleColor(.black, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
     }

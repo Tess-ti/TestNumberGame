@@ -15,7 +15,7 @@ class StartVC: UIViewController {
         startButton.backgroundColor = .blue
         startButton.setTitle("Start New Game", for: .normal)
         startButton.layer.cornerRadius = 15
-        startButton.titleLabel?.font = UIFont(name: "Avenir-Book ", size: 20.0)
+        startButton.titleLabel?.font = UIFont(name: "Avenir-Book", size: 20.0)
         startButton.translatesAutoresizingMaskIntoConstraints = false
         startButton.addTarget(self, action: #selector(segueToNextVC), for: .touchUpInside)
         return startButton

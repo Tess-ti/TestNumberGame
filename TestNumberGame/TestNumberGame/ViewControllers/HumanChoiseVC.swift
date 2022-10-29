@@ -20,7 +20,7 @@ class HumanChoiseVC: UIViewController {
         button.backgroundColor = .blue
         button.setTitle("Guess", for: .normal)
         button.layer.cornerRadius = 15
-        button.titleLabel?.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        button.titleLabel?.font = UIFont(name: "Avenir-Book", size: 23.0)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(guessTapped), for: .touchUpInside)
         return button
@@ -29,7 +29,7 @@ class HumanChoiseVC: UIViewController {
     let  tryLabel: UILabel = {
         let label = UILabel()
         label.text = "Try № 1"
-        label.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        label.font = UIFont(name: "Avenir-Book", size: 23.0)
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -38,7 +38,7 @@ class HumanChoiseVC: UIViewController {
     let  guessingLabel: UILabel = {
         let label = UILabel()
         label.text = "You're guessing"
-        label.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        label.font = UIFont(name: "Avenir-Book", size: 23.0)
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -50,14 +50,14 @@ class HumanChoiseVC: UIViewController {
         numberTextField.textAlignment = .center
         numberTextField.borderStyle = .roundedRect
         numberTextField.keyboardType = .numberPad
-        numberTextField.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        numberTextField.font = UIFont(name: "Avenir-Book", size: 23.0)
         numberTextField.translatesAutoresizingMaskIntoConstraints = false
         return numberTextField
     }()
     
     let infoLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "Avenir-Book ", size: 23.0)
+        label.font = UIFont(name: "Avenir-Book", size: 23.0)
         label.textColor = .black
         label.textAlignment = .center
         label.numberOfLines = 2
